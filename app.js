@@ -114,6 +114,6 @@ function resetGame() {
     highestScore = 0;
     h2.innerHTML = `<b>Highest score : 0</b>`;
     h3.innerText = "Press any key or start button to start the game";
-    start.style.display = "inline";
+    start.style.visibility = "visible";
     document.body.style.backgroundColor = "white";
 }
