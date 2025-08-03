@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    transition: background-color 0.4s ease;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffff0;
+}
+
+.div {
+    height: 150px;
+    width: 150px;
+    border: 8px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+    transition: background-color 0.2s ease;
+    opacity: 0.9;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: rgb(158, 39, 39);
+}
+
+.yellow {
+    background-color: rgb(194, 194, 48);
+}
+
+.purple {
+    background-color: rgb(209, 38, 209);
+}
+
+.blue {
+    background-color: rgb(59, 59, 209);
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+
+.div:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+.restart {
+    font-size: 17px;
+    padding: 8px 16px;
+    background-color: #0f3460;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restart:hover {
+    background-color: #16213e;
+}
+
+#start {
+    font-size: 17px;
+    padding: 8px 16px;
+    background-color: #0f3460;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#start:hover {
+    background-color: #16213e;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #e94560;
+    padding: 8px 16px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #b42d45;
+}
+
+/* Mobile styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    #start {
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+
+    .linkdiv a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .div {
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}

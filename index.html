@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+</head>
+<body>
+    <h1>Simon Game</h1>
+    <h3>Press any key or start button to start the game</h3>
+    <div class="nav">
+        <div>
+            <button id="start" type="button">Start</button>
+        </div>
+        <div class="linkdiv">
+            <a href="howtoplay.html">How to Play?</a>
+        </div>
+        <div>
+            <button class="restart" type="button">Restart</button>
+        </div>
+    </div>
+    <h2>Highest Score : 0</h2>
+    <div class="outer">
+        <div class="in1">
+            <div class="red div" id="red" type="button"></div>
+            <div class="yellow div" id="yellow" type="button"></div>
+        </div>
+        <div class="in2">
+            <div class="purple div" id="purple" type="button"></div>
+            <div class="blue div" id="blue" type="button"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
