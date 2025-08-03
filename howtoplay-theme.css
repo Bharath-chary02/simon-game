@@ -63,3 +63,36 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.back-button {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #123458;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 1000;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #0e2e48;
+  transform: scale(1.05);
+}
+
+/* Responsive style for mobile screens */
+@media screen and (max-width: 600px) {
+  .back-button {
+    top: 15px;
+    left: 15px;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+  }
+}
